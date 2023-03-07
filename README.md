@@ -1,3 +1,0 @@
-# Uhost
-
-A hosting website
