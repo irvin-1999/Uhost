@@ -4,8 +4,8 @@
 }
 
 #product-overview{
-    /* background-image:url("freedom.jpg"); */
-    background: url('images/freedom.jpg') left 4% bottom 60%/cover no-repeat border-box;
+    /* background-image:radial-gradient(circle at 20% 50%, red , green,orange, transparent ); */
+    background: linear-gradient(to top,rgba(80,68,18,.6) 10%,transparent), url('images/freedom.jpg') left 4% bottom 60%/cover no-repeat border-box, #ff1b68;
     /* background-size: cover;
     background-position: left 5% bottom 40%;
     background-repeat: no-repeat;
