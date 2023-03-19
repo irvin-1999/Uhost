@@ -5,15 +5,15 @@
 
 #product-overview{
     /* background-image:radial-gradient(circle at 20% 50%, red , green,orange, transparent ); */
-    background: linear-gradient(to top,rgba(80,68,18,.6) 10%,transparent), url('images/freedom.jpg') left 4% bottom 60%/cover no-repeat border-box, #ff1b68;
+    background: linear-gradient(to top,rgba(80,68,18,.6) 10%,transparent), url('images/freedom.jpg') left 10% bottom 60%/cover no-repeat border-box, #ff1b68;
     /* background-size: cover;
     background-position: left 5% bottom 40%;
     background-repeat: no-repeat;
     background-origin: border-box;
     background-clip: border-box;
     background-attachment: scroll; */
-    width: 100%;
-    height: 27rem;
+    width: 100vw;
+    height: 100vh;
     padding: .65rem;
     /* border: 2px red dashed; */
     position: relative;
