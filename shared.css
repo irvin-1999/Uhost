@@ -192,3 +192,7 @@ body{
 .Button:focus{
     outline: none;
 }
+
+.open{
+    display: block !important;
+}
