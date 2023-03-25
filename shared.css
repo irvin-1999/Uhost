@@ -193,6 +193,6 @@ body{
     outline: none;
 }
 
-.open{
+.open { 
     display: block !important;
 }
