@@ -25,7 +25,7 @@
     font-size: 1.6rem;
 }
 
-@media (min-width: 40rem ){
+@media (min-width: 40rem ) and (min-height:60rem){
     #product-overview{
         height: 80vh;
     }
@@ -38,12 +38,9 @@
 .section-title{
     color:#2ddf5c;
     text-align: center;
+    font-size: 1.2rem;
+    min-width: 26.25rem;
 }
-
-/* .plan__list{
-    width: 100%;
-    text-align: center;
-} */
 
 .Plan {
     background: #d5ffdc;
@@ -56,7 +53,6 @@
 .Plan--highlighted{
     background: #19b84c;
     color: #fff;
-    /* box-shadow: 3px 2.5px rgba(0,0, 0, 0.5); */
 }
 
 .Plan__annotation{
@@ -93,7 +89,24 @@
     margin: .5rem 0;
 }
 
+@media (min-width:40rem){
+    .plan__list{
+    width: 100%;
+    text-align: center;
+    }
 
+    .Plan {
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+        min-width: 13rem;
+        max-width: 25rem;
+    }
+
+    .Plan--highlighted{
+        box-shadow: 3px 2.5px rgba(0,0, 0, 0.5);
+    }
+}
 
 #key--features{
     background: #ff1b68;
@@ -114,9 +127,10 @@
 }
 
 .key--feature{
-    display: inline-block;
-    width: 30%;
+    /* display: inline-block;
+    width: 30%; */
     vertical-align: top;
+    min-width: 19rem;
 }
 
 .key--feature__image{
@@ -133,6 +147,19 @@
     text-align: center;
     font-weight: bold;
     color: #fff;
+}
+
+@media (min-width:40rem){
+    .section-title{
+        
+        font-size: 1.1rem;
+    }
+    .key--feature{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    max-width: 25rem;
+}
 }
 
 /* Bye */
