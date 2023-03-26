@@ -1,11 +1,8 @@
-.section-title{
-    color:#2ddf5c;
-    text-align: center;
-}
+
 
 #product-overview{
     /* background-image:radial-gradient(circle at 20% 50%, red , green,orange, transparent ); */
-    background: linear-gradient(to top,rgba(80,68,18,.6) 10%,transparent), url('images/freedom.jpg') left 10% bottom 60%/cover no-repeat border-box, #ff1b68;
+    background: linear-gradient(to top,rgba(80,68,18,.6) 10%,transparent), url('images/freedom.jpg') center/cover no-repeat border-box, #ff1b68;
     /* background-size: cover;
     background-position: left 5% bottom 40%;
     background-repeat: no-repeat;
@@ -25,28 +22,41 @@
     position: absolute;
     bottom: 5%;
     left: 3%;
+    font-size: 1.6rem;
 }
 
-.plan__list{
-    width: 80%;
-    margin: auto;
+@media (min-width: 40rem ){
+    #product-overview{
+        height: 80vh;
+    }
+
+    #product-overview h1{
+        font-size: 3rem;
+    }
+}
+
+.section-title{
+    color:#2ddf5c;
     text-align: center;
 }
+
+/* .plan__list{
+    width: 100%;
+    text-align: center;
+} */
 
 .Plan {
     background: #d5ffdc;
     text-align: center;
     padding: 1rem;
-    margin: .5rem;
-    display: inline-block;
-    width: 30%;
-    vertical-align: middle;
+    margin: .5rem 0;
+    width: 100%;
 }
 
 .Plan--highlighted{
     background: #19b84c;
     color: #fff;
-    box-shadow: 3px 2.5px rgba(0,0, 0, 0.5);
+    /* box-shadow: 3px 2.5px rgba(0,0, 0, 0.5); */
 }
 
 .Plan__annotation{
