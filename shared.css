@@ -7,6 +7,10 @@ body{
     margin: 0;
 }
 
+main{
+    min-height: calc(100vh - 1.7rem - 8rem);
+}
+
 .backdrop{
     position: fixed;
     display: none;
@@ -57,8 +61,7 @@ body{
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.25rem;
-    height: 1.25rem;
+    height: 1.7rem;
     display: inline-block;
     vertical-align: middle;
 }
@@ -67,11 +70,11 @@ body{
     height: 100%;
 }
 
-.main-nav{
+/* .main-nav{
     display: inline-block;
     text-align: right;
     width: calc(100% - 122px);
-}
+} */
 
 .main-nav__items{
     margin: 0;
@@ -113,6 +116,19 @@ body{
     color: #ff1b68;
     background: #fff;
     border: none;
+}
+
+@media (min-width:40rem){
+    .toggle-button{
+        display: none;
+    }
+
+    .main-nav{
+        display: inline-block;
+        text-align: right;
+        width: calc(100% - 122px);
+        vertical-align: middle;
+    }
 }
 
 .main-footer{
