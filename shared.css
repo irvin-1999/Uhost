@@ -70,11 +70,9 @@ main{
     height: 100%;
 }
 
-/* .main-nav{
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 122px);
-} */
+.main-nav{
+    display: none;
+}
 
 .main-nav__items{
     margin: 0;
@@ -209,6 +207,20 @@ main{
     outline: none;
 }
 
+.Button[disabled]{
+    cursor: not-allowed;
+    border: #a1a1a1;
+    background-color: #ccc;
+    color: #a1a1a1;
+}
+
 .open { 
     display: block !important;
 }
+
+@media (min-width: 40rem) {
+    .main-footer__link {
+      display: inline-block;
+      margin: 0 1rem;
+    }
+  }
