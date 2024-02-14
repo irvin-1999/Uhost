@@ -1,0 +1,15 @@
+{
+  "name": "uhost",
+  "version": "1.0.0",
+  "description": "A web hosting company",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Boitumelo Iven Moshitwa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
